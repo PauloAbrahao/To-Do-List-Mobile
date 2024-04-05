@@ -42,11 +42,5 @@ export const Config = {
     lineHeight: {
       small: 140,
     },
-
-    // Font weights
-    fontWeight: {
-      regular: "normal",
-      bold: "bold",
-    },
   },
 };
