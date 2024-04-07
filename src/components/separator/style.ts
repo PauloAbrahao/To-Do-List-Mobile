@@ -3,7 +3,7 @@ import {Config} from "../../config/theme";
 
 export const styles = StyleSheet.create({
   container: {
-    marginTop: 30,
+    marginTop: 15,
     justifyContent: "center",
     alignItems: "center",
   },

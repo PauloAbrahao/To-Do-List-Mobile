@@ -14,4 +14,9 @@ export const styles = StyleSheet.create({
   inputColor: {
     color: Config.colors.base.gray100,
   },
+  inputFocused: {
+    color: Config.colors.base.gray100,
+    borderWidth: 1,
+    borderColor: Config.colors.product.darkPurple,
+  },
 });
