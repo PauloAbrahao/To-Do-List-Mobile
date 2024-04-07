@@ -10,6 +10,7 @@ const Input = () => {
   const {addTask} = useTaskContext();
 
   const handleAddTask = () => {
+    if (value.trim() === "") return; 
     addTask(value); 
     setValue(""); 
   };
