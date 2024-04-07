@@ -6,8 +6,8 @@
 
 ### See the project...
 <p align="center">
-  <img src="./assets/first" width="190" hspace="15">
-  <img src="./assets/second" width="190" hspace="15">
+  <img src="./assets/first.png" width="190" hspace="15">
+  <img src="./assets/second.png" width="190" hspace="15">
   <img src="./assets/thirdy.png" width="190" hspace="15">
 </p>
 
