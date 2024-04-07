@@ -3,7 +3,6 @@ import React from "react";
 import {styles} from "./style";
 import {LogoIcon} from "../../../assets/icons/";
 import Input from "./components/input";
-import Button from "../button";
 
 export const Header = () => {
   return (
@@ -14,7 +13,6 @@ export const Header = () => {
             <LogoIcon />
             <View style={styles.container}>
               <Input />
-              <Button />
             </View>
           </View>
         </View>

@@ -3,14 +3,15 @@ import React from "react";
 import {styles} from "./style";
 import {Header} from "../header";
 import {Categories} from "./components/categories";
-import {Separator} from "../separator";
+import {Body} from "../body/";
+import {MainProps} from "../../config/interfaces";
 
-export const Main = () => {
+export const Main = ({handleOnLayout}: MainProps) => {
   return (
-    <View style={styles.mainComponent}>
+    <View style={styles.mainComponent} onLayout={handleOnLayout}>
       <Header />
       <Categories />
-      <Separator />
+      <Body />
     </View>
   );
 };
